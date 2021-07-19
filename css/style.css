@@ -1,0 +1,47 @@
+canvas {
+    display: block;
+    margin: 10px auto;
+    box-shadow: -2px -2px 2px #EFEFEF, 5px 5px 5px #B9B9B9;
+}
+
+header{
+    /* display:block; */
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+}
+
+header h2{
+    font-family:Arial;
+    font-size:28px;
+    font-weight:bold;
+    margin:0 auto;
+    max-width: 600px;
+    
+    /* width:300px;
+    padding:10px 10px;
+    background-color:#f50d0d; */
+
+    font-family:Arial;
+    color:#0000FF;
+
+    border-radius:20px;
+}
+
+header #button{
+    /* display:inline-block; */
+    margin:20px auto;
+
+    width:100px;
+    padding:10px 10px;
+    background-color:#ee5610;
+
+    font-family:Arial;
+    color:white;
+
+    border-radius:10px;
+    text-decoration:none;
+}
+header #button:hover{
+    background-color:#d37a47;
+}

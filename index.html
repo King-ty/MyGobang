@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>五子棋</title>
+</head>
+
+<body>
+    <header>
+        <h2>五子棋AI</h2>
+    </header>
+
+    <canvas id="chessboard" width="450px" height="450px"></canvas>
+    <header>
+        <div id="button" onclick="startGame(true)" name="meFirst" style="display:inline-block">电脑先行</div>
+        <div id="button" onclick="startGame(false)" name="computerFirst" style="display:inline-block">玩家先行
+        </div>
+        <div id="button" onclick="cleanBoard()" name="restart" style="display:none">重新开始</div>
+        <div id="button" onclick="goBack()" name="goBack" style="display:none">悔棋</div>
+    </header>
+</body>
+<script src="js/array.js"></script>
+<script src="js/Mymath.js"></script>
+<script src="js/score.js"></script>
+<script src="js/role.js"></script>
+<script src="js/config.js"></script>
+
+<script src="js/web-design.js"></script>
+<script src="js/board.js"></script>
+<script src="js/evaluate-point.js"></script>
+<script src="js/negamax.js"></script>
+
+</html>
